@@ -4,6 +4,7 @@
   "description": "Cloudflare worker TypeScript template",
   "main": "index.js",
   "scripts": {
+    "init": "npx wrangler kv:namespace create hammal_cache",
     "dev": "npx wrangler dev",
     "deploy": "npx wrangler deploy",
     "format": "prettier --write '**/*.{ts,js,css,json,md}'"
