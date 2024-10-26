@@ -3,5 +3,5 @@ node_modules
 transpiled
 worker
 .wrangler
-wrangler.toml
+# wrangler.toml
 !wrangler.toml.sample
